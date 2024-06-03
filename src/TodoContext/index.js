@@ -27,7 +27,7 @@ function TodoProvider({ children }) {
 
     // creamos un nuevo estado para el modal
     // el estado por defecto de este modal es que este cerrado, es decir, 'false', y si ya queremos abrirlo pues llamamos a 'setOpenModal'
-    const [ openModal, setOpenModal ] = React.useState(true);
+    const [ openModal, setOpenModal ] = React.useState(false);
 
     // entonces aqui ya podemos ver como al escribir en el input, se imprime en consola cada letra que escribimos 
     // console.log('Los usuarios buscan todos de ' + searchValue);
@@ -53,6 +53,16 @@ function TodoProvider({ children }) {
         }
     );
 
+    // aqui vamos a crear la función que va a crear los nuevos todos
+    const addTodo = (text) => {
+        const newTodos = [...todos];
+        newTodos.push({
+            text,
+            completed: false,
+        });
+        saveTodos(newTodos);
+    }
+    
     // aqui creamos la función actualizadora del estado, a partir de la primer función actualizadora del estado 'setTodos', la que utilizaremos para identificar cuando el usuario da clic en el chulo de verificación
     // al escribir esta función, vamos a poder reutilizarla para todos nuestros 'TodoItem'
 
@@ -88,6 +98,7 @@ function TodoProvider({ children }) {
             searchValue,
             setSearchValue,
             searchedTodos,
+            addTodo,
             completeTodo,
             deleteTodo,
             openModal,
