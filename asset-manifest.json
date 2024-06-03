@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/creacionfinanciera/curso-react-intro/static/css/main.95620d23.css",
-    "main.js": "/creacionfinanciera/curso-react-intro/static/js/main.0308be27.js",
-    "index.html": "/creacionfinanciera/curso-react-intro/index.html",
-    "static/media/delete.svg": "/creacionfinanciera/curso-react-intro/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "static/media/check.svg": "/creacionfinanciera/curso-react-intro/static/media/check.1812257c2b03e88a15574edf6add8ac3.svg",
-    "main.95620d23.css.map": "/creacionfinanciera/curso-react-intro/static/css/main.95620d23.css.map",
-    "main.0308be27.js.map": "/creacionfinanciera/curso-react-intro/static/js/main.0308be27.js.map"
+    "main.css": "/curso-react-intro/static/css/main.95620d23.css",
+    "main.js": "/curso-react-intro/static/js/main.4567e86b.js",
+    "index.html": "/curso-react-intro/index.html",
+    "static/media/delete.svg": "/curso-react-intro/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/curso-react-intro/static/media/check.1812257c2b03e88a15574edf6add8ac3.svg",
+    "main.95620d23.css.map": "/curso-react-intro/static/css/main.95620d23.css.map",
+    "main.4567e86b.js.map": "/curso-react-intro/static/js/main.4567e86b.js.map"
   },
   "entrypoints": [
     "static/css/main.95620d23.css",
-    "static/js/main.0308be27.js"
+    "static/js/main.4567e86b.js"
   ]
 }
